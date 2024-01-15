@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin: 0 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 80px;
+}
+
+header a:hover {
+    color: #ddd;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.cta {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #444;
+}
+
+.about, .services, .contact {
+    padding: 40px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.about h2, .services h2, .contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p, .services p, .contact p {
+}
